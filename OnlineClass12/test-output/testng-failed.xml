@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="utils.config.TestListener"/>
+  </listeners>
+  <test thread-count="1" name="Run Chrome(failed)" parallel="tests">
+    <parameter name="mode" value="desktop"/>
+    <parameter name="browser" value="chrome.local"/>
+    <parameter name="autoLogBug" value="false"/>
+    <classes>
+      <class name="tests.InputFormsTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="cleanUp"/>
+          <include name="TC001_UserCanGoInputForms"/>
+        </methods>
+      </class> <!-- tests.InputFormsTest -->
+    </classes>
+  </test> <!-- Run Chrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<b>INFO: </b>TEST CASE: tests.InputFormsTest.TC001_UserCanGoInputForms]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="38347" started-at="2019-09-29T16:45:03 ICT" finished-at="2019-09-29T16:45:42 ICT">
+    <groups>
+      <group name="smoke">
+        <method signature="InputFormsTest.TC001_UserCanGoInputForms()[pri:0, instance:tests.InputFormsTest@25fb8912]" name="TC001_UserCanGoInputForms" class="tests.InputFormsTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Run Chrome" duration-ms="38347" started-at="2019-09-29T16:45:03 ICT" finished-at="2019-09-29T16:45:42 ICT">
+      <class name="tests.InputFormsTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, boolean, java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:tests.InputFormsTest@25fb8912]" name="beforeMethod" is-config="true" duration-ms="4867" started-at="2019-09-29T16:45:03 ICT" finished-at="2019-09-29T16:45:08 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome.local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void tests.InputFormsTest.TC001_UserCanGoInputForms() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@2ddc9a9f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="TC001_UserCanGoInputForms()[pri:0, instance:tests.InputFormsTest@25fb8912]" name="TC001_UserCanGoInputForms" duration-ms="33197" started-at="2019-09-29T16:45:08 ICT" finished-at="2019-09-29T16:45:41 ICT">
+          <reporter-output>
+            <line>
+              <![CDATA[<b>INFO: </b>TEST CASE: tests.InputFormsTest.TC001_UserCanGoInputForms]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC001_UserCanGoInputForms -->
+        <test-method status="PASS" signature="cleanUp(org.testng.ITestResult)[pri:0, instance:tests.InputFormsTest@25fb8912]" name="cleanUp" is-config="true" duration-ms="240" started-at="2019-09-29T16:45:41 ICT" finished-at="2019-09-29T16:45:42 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC001_UserCanGoInputForms status=SUCCESS method=InputFormsTest.TC001_UserCanGoInputForms()[pri:0, instance:tests.InputFormsTest@25fb8912] output=<b>INFO: </b>TEST CASE: tests.InputFormsTest.TC001_UserCanGoInputForms]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- tests.InputFormsTest -->
+    </test> <!-- Run Chrome -->
+  </suite> <!-- Suite -->
+</testng-results>
